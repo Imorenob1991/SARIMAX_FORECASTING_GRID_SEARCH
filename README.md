@@ -12,3 +12,23 @@ The data was extracted from a Chilean open-source website (https://datos.gob.cl/
 - Plotting Results: We compare the fitted values with the actual observations and plot a 12-month forecast to assess the model's predictive accuracy.
 - Grid Search for Optimal SARIMAX Parameters: We conduct a grid search to identify the optimal parameters (p, d, q) and (P, D, Q, S) that minimize AIC and provide the best model.
 - Modeling, Fitting, and Forecasting with the Best SARIMAX: We fit and predict with the optimal SARIMAX model, plotting results to compare with the initial ARIMA models and observe any improvements.
+
+  ## Results
+
+  Initial Best ARIMA MODEL: AIC 1136
+
+  ![ARIMA_PLOT](https://github.com/user-attachments/assets/b94be43b-d921-4ccc-8a11-c0a0490c2617)
+
+  Comments: The model struggles to forecast accurately due to limitations in incorporating seasonal patterns.
+
+  FINAL SARIMAX MODEL W/GRID SEARCH: AIC 988
+
+  ![SARIMAX_PLOT](https://github.com/user-attachments/assets/bdfc734c-4a33-4cd1-b30c-5a6d995fe9c5)
+
+
+  Comments: It's important to note that the model improved in terms of AIC (indicating a model with potentially better predictive capability). However, this does not mean that the   
+  error values of the fitted model improved—in fact, they actually increased
+
+
+
+  
