@@ -26,8 +26,7 @@ The data was extracted from a Chilean open-source website (https://datos.gob.cl/
   ![SARIMAX_PLOT](https://github.com/user-attachments/assets/bdfc734c-4a33-4cd1-b30c-5a6d995fe9c5)
 
 
-  Comments: It's important to note that the model improved in terms of AIC (indicating a model with potentially better predictive capability). However, this does not mean that the   
-  error values of the fitted model improved—in fact, they actually increased
+  Comments: It's important to note that the model improved in terms of AIC (indicating a model with potentially better predictive capability). However, this does not mean that the  error values of the fitted model improved—in fact, they actually increased
 
 
 
